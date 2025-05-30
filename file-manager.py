@@ -1,5 +1,5 @@
 import os
-availble_commands = {"pwd":"Working directory", "cd..":"Change directory"}
+availble_commands = {"pwd":"Working directory", "cd..":"Change directory",}
 # run the user's program in our generated folders
 os.chdir('module/root_folder')
 def get_command(str):
